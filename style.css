@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin-top: 1em;
+    text-align: center;
+}
+
+main{
+    max-width: 1000px;
+    /* height: 100%; */
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-card{
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;
+    background: purple;
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
